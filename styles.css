@@ -1,0 +1,25 @@
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+.pulse {
+  animation: pulse 2s infinite;
+}
+
+.neon-text {
+  text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc, 0 0 30px #00ffcc;
+}
+
+.neon-border {
+  box-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+a {
+  transition: all 0.3s ease;
+}
